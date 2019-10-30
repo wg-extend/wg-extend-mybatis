@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface DemoMapper {
 
-    Demo getById(Long id);
+    Demo getById(long id);
 
     List<Demo> getAll();
 }
